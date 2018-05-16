@@ -1,0 +1,108 @@
+	
+	body {
+		background-image:url('images/s1.jpg');
+		overflow: hidden;
+	}
+	
+	nav {
+		position: absolute;
+		width:100%;
+		margin-left: -8px;
+	}
+	
+	nav ul {
+		width:50px;
+		float: left;
+		margin: 0;
+		padding: 0;
+		
+		
+	}
+	
+	li {
+		
+		list-style-type: none;
+		width:192px;
+		margin-top:148px;
+		
+	}
+	
+	h2 {
+		
+		font-family: 'La Belle Aurore', cursive;
+		font-size:25px;
+		border:2px solid black;
+		clear:both;
+		text-align:center;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		background-image:url('images/bg.jpg');
+		
+	}
+	
+	.members {
+		
+		float:left;
+		height:250px;
+		border: 2px solid black;
+		margin-left: 127px;
+		margin-top: -136px;
+		
+	}
+	
+	p img {
+		opacity:0.7;
+		height:80%;
+		float:left;
+		margin-right:5px;
+	}
+	
+	p {
+		font-family: 'Indie Flower', cursive;
+		font-size: 15px;
+		font-weight: 600;
+		height: 178px;
+		margin-left: 127px;
+		margin-top: -136px;
+		max-width:600px;
+		position: absolute;
+		padding-right: 5px;
+		border:2px solid black;
+		
+	}
+
+	li h2 {
+		opacity: 0.4;
+		cursor: pointer;
+	}
+	
+	#rainbowBig {
+		display:none;
+		position: absolute;
+		margin-left: 445px;
+	}
+	
+	#rainbowSmall {
+		display:none;
+		width: 622px;
+		z-index: 2;
+		margin-left: 747px;
+		margin-top: 337px;
+		position:absolute;
+	}
+	
+	.backGround {
+		width:600px;
+		background-image:url('images/bgd.jpg');
+		z-index:-1;
+	}
+	
+	.lyrics {
+		display:none;
+		margin-top: 452px;
+		position: absolute;
+		margin-left: 900px;
+	
+	}
